@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "email": "admin@mergington.edu",
+      "name": "School Admin",
+      "role": "admin",
+      "status": "active",
+      "password": "9c6d8ab10573d98bfa1fb294f9b380fa0ee95d10e62b82f878bc195665ffcb13"
+    }
+  ]
+}
