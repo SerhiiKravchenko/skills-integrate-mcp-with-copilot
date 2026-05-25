@@ -21,6 +21,42 @@
         </div>
       </section>
 
+      <section id="auth-container">
+        <h3>User Registration & Login</h3>
+        <div id="user-info" class="message info hidden"></div>
+
+        <form id="login-form">
+          <div class="form-group">
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" required placeholder="Password" />
+          </div>
+          <button type="submit">Log In</button>
+        </form>
+
+        <form id="register-form">
+          <div class="form-group">
+            <label for="register-name">Full Name:</label>
+            <input type="text" id="register-name" required placeholder="Jane Doe" />
+          </div>
+          <div class="form-group">
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" required placeholder="your-email@mergington.edu" />
+          </div>
+          <div class="form-group">
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" required placeholder="Password" />
+          </div>
+          <button type="submit">Register as Student</button>
+        </form>
+
+        <button id="logout-button" class="hidden">Log Out</button>
+        <div id="auth-message" class="hidden"></div>
+      </section>
+
       <section id="signup-container">
         <h3>Sign Up for an Activity</h3>
         <form id="signup-form">
@@ -37,7 +73,7 @@
           </div>
           <button type="submit">Sign Up</button>
         </form>
-        <div id="message" class="hidden"></div>
+        <div id="signup-message" class="hidden"></div>
       </section>
     </main>
 
